@@ -46,6 +46,11 @@
     .secao-vertical .cartao__imagem {
         height: 156px;
     }
+
+    .secao__cartoes{
+        row-gap: 0.5rem;
+        column-gap: 1rem;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1399px) {
@@ -87,6 +92,10 @@
 
     .secao-vertical .cartao__imagem {
         height: 134px;
+    }
+
+    .secao__cartoes{
+        column-gap: 1.5rem;
     }
 
 
